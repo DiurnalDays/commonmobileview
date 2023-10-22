@@ -84,3 +84,9 @@ li{
     display: inline-block;
     margin-left: 50px;
 }
+.skip a{ 
+    top:-40px;
+}
+.skip a:focus{
+    top:20px;
+}
