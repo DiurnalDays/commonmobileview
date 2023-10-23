@@ -148,6 +148,5 @@ img[data-reduced-motion] {
 @media (prefers-reduced-motion: reduce) {
     img[data-reduced-motion] {
       display: block;
-      alt: attr(data-alt);
     }
   }
