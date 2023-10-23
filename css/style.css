@@ -143,3 +143,12 @@ li{
     margin-left: 50px;
 }
  
+img[data-reduced-motion] {
+    display: none; 
+  }
+@media (prefers-reduced-motion: reduce) {
+    img[data-reduced-motion] {
+      display: block;
+      alt: attr(data-alt);
+    }
+  }
