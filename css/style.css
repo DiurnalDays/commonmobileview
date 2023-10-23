@@ -18,7 +18,7 @@ nav{
   }
 @media only screen and (min-width: 768px) {
     .skip{
-        display:visible;
+        visibility:visible;;
     }
 }
 @keyframes float {
@@ -96,11 +96,10 @@ li{    display:inline-block;
     height: 25px;
     margin-left: 50px
 }
-nav a{border: 2px solid black
-padding 20px;
+nav a{border: 2px solid black;
 border-radius:2px;
 }
-a{text-align: underline;
+a{text-decoration: underline;
 border: solid black}
 #skip{text-transform:uppercase}
 p{
