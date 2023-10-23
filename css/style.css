@@ -1,12 +1,25 @@
 body{
     background-color:#4895EF;
-    color:white;
+    color:black;
     margin:20px;
 }
 nav{
     border: 2px solid black;
     padding:10px;
     margin:10px;
+}
+.skip { 
+    display: none;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+@media only screen and (min-width: 768px) {
+    .skip{
+        display:visible;
+    }
 }
 @keyframes float {
     0% {
@@ -130,17 +143,3 @@ li{
     margin-left: 50px;
 }
  
-.skip { 
-    display: none;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 20px;
-  }
-@media only screen and (min-width: 768px) {
-    .skip{
-        display:visible;
-    }
-}
